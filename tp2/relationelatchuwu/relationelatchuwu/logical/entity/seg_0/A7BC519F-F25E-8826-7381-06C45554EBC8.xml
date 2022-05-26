@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7BC519F-F25E-8826-7381-06C45554EBC8" name="produit">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:42:00 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produit" id="19BD95AA-11E9-D6A0-5DEE-ADDF13C10B0C">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:47:57 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_produit" id="018AD91B-12C0-B116-05F2-45F89A564023">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:48:34 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titre_produit" id="74735C88-2776-FCDE-D91E-BE5FFAC95E0F">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:49:13 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_debut" id="5D2E0B40-D5A3-6EEE-E7C8-81426556CAC0">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:49:40 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_vente" id="C02DADB0-4BC8-EB8B-EA1D-C138CA62C226">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:49:57 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilisateur" id="A2815020-1823-C16B-1E15-F61659888500">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:50:01 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_captureur" id="9CB7D666-0B11-2776-AE47-559C19652B35">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:52:02 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix_actuel" id="90846B95-365C-702E-A8B8-310FBFA8A91C">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:56:41 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilisateur1" id="31FC9A8B-073A-3DB9-42BB-74BB65190852">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:04:00 UTC</createdTime>
+<generatorID>FA0CD018-8C4F-ACE4-DC29-52DFED47B0DD</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<referedAttribute>D025483E-18F9-ABF4-E94C-E0FDE3FB25E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>60</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_captureur1" id="714D5897-4D67-3D85-0205-973D0EBC5D7A">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:07:17 UTC</createdTime>
+<generatorID>38A8BEF9-3838-FA9A-7FF3-BE2435AF422A</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<referedAttribute>6F18507A-CD0F-F528-BF34-3FEC7C7CCDB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CE66476-378F-7D92-601F-31483DC87F9B" name="produit PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:48:31 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19BD95AA-11E9-D6A0-5DEE-ADDF13C10B0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

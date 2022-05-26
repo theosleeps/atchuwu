@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A900D906-C1DE-1F2D-F6CD-227F7FA7D420" containerWithKeyObject="17387CAA-C1D8-36E0-F73B-0F61AAC3046F" localFKIndex="0C9C27CF-B34D-677D-ACDB-EE1A2421958E" name="produit_Captureur_FK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>38A8BEF9-3838-FA9A-7FF3-BE2435AF422A</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<referredTableLongName>Captureur</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C73B575-AAC3-4F01-9D79-3264C69F08BF</referredTableID>
+<keyObject>2098477E-5B95-7AFB-7FE7-38D94CEC294E</keyObject>
+<referredKeyID>2098477E-5B95-7AFB-7FE7-38D94CEC294E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_captureur</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

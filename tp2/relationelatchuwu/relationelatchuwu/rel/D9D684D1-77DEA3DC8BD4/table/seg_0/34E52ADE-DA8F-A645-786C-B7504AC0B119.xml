@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E52ADE-DA8F-A645-786C-B7504AC0B119" name="adresse">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>60F28B87-E22F-2B5F-B25F-3AD613844B5F</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_adresse" id="062F40C0-294B-5A3A-A6BC-FE6AAE60E3E5">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>3597C130-96D0-EE07-7D8B-ED990EE026BC</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rue" id="ABA32280-CBE1-22E7-D98A-4ECECB1E65D8">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>57F986F1-CF3A-C71D-DE15-BABD1B2CDFE3</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code_civique" id="D2E7A4CB-3BD1-DB8C-013B-42F371C0F8C9">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>FF4DE78B-1309-A831-5354-EF13EC490BFF</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apt_suite" id="104712B5-1317-C184-B1EC-7D9444E2F5EF">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>3513F382-D18F-700B-CBEB-7CB7B2632E2C</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ville_etc" id="1D7995A7-9648-0554-F9B2-67010E225BCC">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>8071C62C-9D89-19DC-934E-2F6F91ACDCC1</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 CHAR</dataTypeSize>
+<ownDataTypeParameters>55 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="province" id="B839BF50-F387-D908-9C72-14240ECE24DA">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>DA0A8C26-7AA8-2203-6A4F-EC110000F4F4</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="utilisateur_id_utilisateur" id="AF1A342F-D43E-0597-5E13-FD7D2A16D449">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>DDC12E70-67CB-EEA8-BE2C-235E787DFBB7</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>60</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F6F202B-687B-0021-CF72-960807A4ABBA" referredColumn="57B08B42-423E-02D6-96D3-88962A02DDC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="505C756F-0566-55AF-79D2-20FF15979C08" name="adresse_PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>4C2991E5-59F8-AE44-5641-37171F8FB968</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062F40C0-294B-5A3A-A6BC-FE6AAE60E3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7601EC41-9B0C-9231-1309-58AD3B4AD71B" name="adresse__IDX">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>94F04112-8F19-D313-53D5-08396FA1E541</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AF1A342F-D43E-0597-5E13-FD7D2A16D449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD884350-2FBC-14B6-A682-BA1CD855CA5B" name="adresse_utilisateur_FK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>94F04112-8F19-D313-53D5-08396FA1E541</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF1A342F-D43E-0597-5E13-FD7D2A16D449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

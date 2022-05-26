@@ -1,0 +1,59 @@
+/*
+** Par Theo Moukhalellati
+** Slideshow de l'accueil
+*/
+
+.containerSS {
+    width: 481px;
+    height: 260px;
+    
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    top: 1em;
+}
+
+.imagesDiapo {
+    width: inherit;
+    height: inherit;
+    display: none;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.texteDiapo {
+    display: block;
+    z-index: 2;
+    margin: auto;
+    font-family: 'Comic Sans MS', arial;
+    color: rgb(0, 65, 54);
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: inherit;
+}
+
+#txt1 {
+    top: -70px;
+}
+
+#txt2 {
+    top: -250px;
+    right: -50px;
+}
+
+#txt3 {
+    top : -115px;
+}
+
+#button
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+}

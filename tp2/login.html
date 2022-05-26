@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="cssFiles/generalCSS.css">
+    <link rel="stylesheet" href="cssFiles/loginCss.css">
+
+    <!--Comic sans <3-->
+    <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+
+    <title="Atchuwu ! Connexion & inscription"></title>
+</head>
+<body>
+    
+    <div id="banner">
+        <img id = "bannerImg" src="images/banner.png" />
+        <div class="buttonBox">
+            <img src="images/buttonFAQ.png" id = "button" alt="FAQ" onclick="openFaq()">
+            <img src="images/buttonMarche.png" id = "button" alt="FAQ" onclick="openMarket()">
+            <img src="images/buttonLogin.png" id = "button" alt="FAQ">
+        </div>
+    </div>
+
+    <div class="logoBanner">
+
+        <div class="logoBeBigboi">
+            <img src="images/Atchuwu_logo1.png" />
+        </div>
+    </div> 
+
+    <!--Fin bannière-->
+
+<div class="pageContainer">
+
+    <div class="weirdFlexButOk">
+        <!--Partie gauche-->
+        <div class="flexSignIn">
+            <div class="title">Connexion</div>
+            <div id="spacing"></div>
+            <div class="txt inputlabel">Courriel :</div>
+            <input id="inpuwut" style="width: 20em;">
+            <div class="txt inputlabel">Passuwurdu :</div>
+            <input id="inpuwut" style="width: 20em;">
+        </div>
+        <!--Partie droite-->
+        <div class="flexSignUp">
+            <div class="title">Inscription</div>
+            <div id="spacing"></div>
+            <div class="txt" id="info">L'aventure commence ici.
+                Inscrivez-vous rapidement afin de pouvoir commencer à enchérir sur les produtis de vos rêves sains d'esprit dès aujourd'hui.
+            </div>
+            <div class="flexTonCompte">
+                <div class="flexLine">
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Email</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="email" name="email">
+                        </tr>
+                    </div>
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Passuwurdu :</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="passwordlogin" name="passwordlogin" type="password">
+                        </tr>
+                    </div>
+                </div>
+
+                <div class="txt" id="info" style="top: 10px;">
+                    Entrez votre adresse afin de pouvoir recevoir les atchoums que vous achèterez.
+                </div>
+
+                <div class="flexLine">
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Code civique :</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="code_civique" name="code_civique" maxlength="5" minlength="1" type="">
+                        </tr>
+                    </div>
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Rue :</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="rue" name="rue">
+                        </tr>
+                    </div>
+                </div>
+                <div class="flexLine">
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Ville</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;"
+                             id="ville" name="ville">
+                        </tr>
+                    </div>
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">apt., suite, etc.</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="aptsuite" name="aptsuite">
+                        </tr>
+                    </div>
+                </div>
+                <div class="flexLine">
+                    <div id="minicolumn">
+                        <tr>
+                            <div class="txt inputlabel">Province</div>
+                        </tr>
+                        <tr>
+                            <input id="inpuwut" style="width: 20em;" 
+                            id="province" name="province" list = "provinces">
+                                <datalist id="provinces">
+                                    <option value="Alberta">
+                                    <option value="Saskatchewan">
+                                    <option value="Manitoba">
+                                    <option value="Ontario">
+                                    <option value="Québec">
+                                    <option value="Nunavut"> 
+                                    <option value="T-N-O"> 
+                                    <option value="I-P-É">
+                                    <option value="Nouvelle-Écosse">
+                                    <option value="Nouveau-Brunswick">
+                                    <option value="T-N-E-L">
+                                    <option value="Colombie-britannique">
+                                    <option value="Yukon">
+                                </datalist>
+                        </tr>
+                    </div>
+                </div>
+
+                <div class="flexLine">
+                    <tr>
+                        <div id="minicolumn">
+                            <button class="txt" id="submit" alt="soumettre" onclick="ins_user()">suwumettre~</button>
+                        </div>
+                    </tr>
+                </div>
+            
+            
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+<script src="jsFiles/buttons.js"></script>
+<script src="jsFiles/insurtu.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6161CA5-B168-3245-340F-E6821919C322" name="utilisateur">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>A2631B5A-5CE6-8735-A3DB-88E77C33B5BF</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_utilisateur" id="57B08B42-423E-02D6-96D3-88962A02DDC5">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>D025483E-18F9-ABF4-E94C-E0FDE3FB25E4</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>60</dataTypeScale>
+<ownDataTypeParameters>,0,60</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_adresse" id="7C557002-7835-715C-B4D1-61D3A2672475">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>A0C7D9E5-3B72-4FB5-964C-C31CAA9D799B</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,0,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_banni" id="1696ED39-92E3-F2DD-178E-7374B6EC9339">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>D9234D55-3635-BAAA-D17B-D6265F06EA46</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mdpasse" id="C5C33E44-84DD-74B8-93DD-D051B5E74666">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>9EA2EE48-BDAB-A3DE-27EA-84196DFC5546</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="683679C9-A3D2-876F-59AD-F6C99CCFA840">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>0EC2333A-488C-76A4-590F-606C4340EBE4</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92057099-2996-82B9-B244-3A8812705C8B" name="utilisateur_PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>37B12FA5-C1DE-7142-31E0-81FE28A14247</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B08B42-423E-02D6-96D3-88962A02DDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

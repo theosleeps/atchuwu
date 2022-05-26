@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9ADD62B2-8499-9D83-FB8C-CE91213D3DF1" name="Captureur">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:43:23 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_captureur" id="6F18507A-CD0F-F528-BF34-3FEC7C7CCDB8">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:51:46 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_banni" id="1414B380-4D33-4121-D8A6-7F71A10255C8">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:55:28 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_certification" id="351EB7EF-F367-FC8B-765B-54838E77D63C">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:55:35 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E23D04A3-3F82-91AB-75FE-A834D65342A0" name="Captureur PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:51:57 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F18507A-CD0F-F528-BF34-3FEC7C7CCDB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

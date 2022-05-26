@@ -1,0 +1,41 @@
+.texteAccueil {
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+    color: rgb(0, 43, 37);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flexAccueil{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: -webkit-fill-available;
+}
+
+.flexAccueil1 { /*gauche*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    width: 600px;
+    margin-right: 200px;
+}
+
+.flexAccueil2 { /*droite*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    width: 600px;
+}
+
+#gay {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 130px;
+    height: 60px;
+}

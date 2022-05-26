@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17387CAA-C1D8-36E0-F73B-0F61AAC3046F" name="produit">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>A7BC519F-F25E-8826-7381-06C45554EBC8</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produit" id="E3FD2ACC-3F80-45E4-ACA1-05EAA4A70F82">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>19BD95AA-11E9-D6A0-5DEE-ADDF13C10B0C</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_produit" id="57509F72-D69D-1494-6BBB-DC9B7C2B8708">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>018AD91B-12C0-B116-05F2-45F89A564023</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titre_produit" id="2DE55FA6-5B44-1D4F-74A7-3ABF9C9A89E2">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>74735C88-2776-FCDE-D91E-BE5FFAC95E0F</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_debut" id="1FE0B8C3-A135-E43E-0D6F-3F4AD0AB3344">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>5D2E0B40-D5A3-6EEE-E7C8-81426556CAC0</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_vente" id="6D432F68-EBA5-6CFA-13A6-A4560D51B540">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>C02DADB0-4BC8-EB8B-EA1D-C138CA62C226</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_utilisateur" id="23580342-2E7E-05AA-1F5A-6A6DB7BF1E70">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>A2815020-1823-C16B-1E15-F61659888500</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_captureur" id="319AE3AE-0B0A-C6D4-EAB8-DD0C78FA21D2">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>9CB7D666-0B11-2776-AE47-559C19652B35</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,50</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix_actuel" id="BC04EFAB-391A-0C0B-85FE-C564ACA569E3">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>90846B95-365C-702E-A8B8-310FBFA8A91C</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="utilisateur_id_utilisateur" id="946C9472-3460-30A3-6288-03C88A73DFCB">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>31FC9A8B-073A-3DB9-42BB-74BB65190852</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>60</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC8AA3FA-BA53-E2D9-0CAA-AAF551BF3D3B" referredColumn="57B08B42-423E-02D6-96D3-88962A02DDC5"/>
+</associations>
+</Column>
+<Column name="Captureur_id_captureur" id="5EB52638-D5CA-93EB-6E9B-D2C46809BC94">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>714D5897-4D67-3D85-0205-973D0EBC5D7A</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A900D906-C1DE-1F2D-F6CD-227F7FA7D420" referredColumn="D486E784-5C27-C0AD-850C-756A679A4DC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA2C2551-7D66-A41A-A5F6-D7832D1D5E46" name="produit_PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>1CE66476-378F-7D92-601F-31483DC87F9B</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FD2ACC-3F80-45E4-ACA1-05EAA4A70F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCD02088-4FF9-BAA3-24DA-35B03DA70797" name="produit__IDX">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>38A8BEF9-3838-FA9A-7FF3-BE2435AF422A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5EB52638-D5CA-93EB-6E9B-D2C46809BC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C57F62B-8122-FC0D-16AE-FC97840433D4" name="produit_utilisateur_FK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>FA0CD018-8C4F-ACE4-DC29-52DFED47B0DD</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="946C9472-3460-30A3-6288-03C88A73DFCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C9C27CF-B34D-677D-ACDB-EE1A2421958E" name="produit_Captureur_FK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:13:56 UTC</createdTime>
+<generatorID>38A8BEF9-3838-FA9A-7FF3-BE2435AF422A</generatorID>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EB52638-D5CA-93EB-6E9B-D2C46809BC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+.weirdFlexButOk {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: -webkit-fill-available;
+}
+
+.flexSignIn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    width: 600px;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.flexSignUp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    width: 600px;
+    align-items: baseline;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: aquamarine;
+    display: block;
+    position: relative;
+}
+
+input#inpuwut {
+    background-color: rgb(222, 245, 237);
+    border-color: rgba(19, 26, 23, 0.356);
+    border-width: 0.2px;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+
+input#inpuwut:focus {
+    border: none;
+    outline: none;
+}
+
+.txt {
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+}
+
+.txt#info {
+    position: relative;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.inputlabel {
+    font-size: 16px;
+    padding: 4px;
+    top: 16px;
+    position: relative;
+}
+
+#spacing {
+    width: 100%;
+    height: 0;
+    padding-bottom: 30px;
+}
+
+.flexTonCompte {
+    display: flexbox;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
+.flexLine {
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.flexLine#minicolumn {
+    display: table-column;
+}
+
+button#submit {
+    top: 55px;
+    position: relative;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 14px;
+}

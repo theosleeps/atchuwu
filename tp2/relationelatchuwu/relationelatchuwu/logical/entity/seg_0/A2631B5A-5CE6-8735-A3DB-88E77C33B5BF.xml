@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2631B5A-5CE6-8735-A3DB-88E77C33B5BF" name="utilisateur">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:41:46 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_utilisateur" id="D025483E-18F9-ABF4-E94C-E0FDE3FB25E4">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:44:35 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>60</dataTypeScale>
+<ownDataTypeParameters>,0,60</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adresse" id="A0C7D9E5-3B72-4FB5-964C-C31CAA9D799B">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:45:09 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>50</dataTypeScale>
+<ownDataTypeParameters>,0,50</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_banni" id="D9234D55-3635-BAAA-D17B-D6265F06EA46">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:45:41 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mdpasse" id="9EA2EE48-BDAB-A3DE-27EA-84196DFC5546">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:46:00 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0EC2333A-488C-76A4-590F-606C4340EBE4">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:46:57 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37B12FA5-C1DE-7142-31E0-81FE28A14247" name="utilisateur PK">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 00:44:48 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D025483E-18F9-ABF4-E94C-E0FDE3FB25E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

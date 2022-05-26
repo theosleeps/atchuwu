@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="encherisseur" directorySegmentName="seg_0" id="FA0CD018-8C4F-ACE4-DC29-52DFED47B0DD">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:04:00 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<sourcePk>37B12FA5-C1DE-7142-31E0-81FE28A14247</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>encherit sur</nameOnSource>
+<nameOnTarget>est à</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2631B5A-5CE6-8735-A3DB-88E77C33B5BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7BC519F-F25E-8826-7381-06C45554EBC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

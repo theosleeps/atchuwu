@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="cssFiles/generalCSS.css">
+    <link rel="stylesheet" href="cssFiles/slideShowCSS.css">
+    <link rel="stylesheet" href="cssFiles/accueil.css">
+
+    <!--Comic sans <3-->
+    <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+
+    <title="Atchuwu ! Accueil"></title>
+</head>
+<body>
+    
+    <div id="banner">
+        <img id = "bannerImg" src="images/banner.png" />
+        <div class="buttonBox">
+            <img src="images/buttonFAQ.png" id = "button" alt="FAQ" onclick="openFaq()">
+            <img src="images/buttonMarche.png" id = "button" alt="FAQ" onclick="openMarket()">
+            <img src="images/buttonLogin.png" id = "button" alt="FAQ" onclick="openLogin()">
+        </div>
+    </div>
+
+    <div class="logoBanner">
+
+        <div class="logoBeBigboi">
+            <img src="images/Atchuwu_logo1.png" />
+        </div>
+    </div> 
+
+    <!--Fin bannière-->
+
+<div class="pageContainer">
+
+    <div class="flexAccueil">
+        <!--Partie gauche-->
+        <div class="flexAccueil1">
+            <div class="texteAccueil">
+                <span style="font-size: 24px;">
+                    Bienvenue dans la révolution.<br>
+                </span>
+                <span style="font-size: 14px;">
+                    Atchuwu, c'est une nouvelle façon de voir les souvenirs. Avec <span><img src="images/Atchuwu_icon2.png"/ style="height: 14px; width: 28px;" alt="Atchuwu"></span>, vous pouvez enfin obtenir ce dont vous avez toujours rêvé : quelque chose qui vous lie intimement à votre idole. Un atchoum unique.
+                </span>
+            </div>
+        
+            <!--Slideshow-->
+            <div class="containerSS">
+                <div class="imagesDiapo fade">
+                    <img src="images/susslideshow1.png" />
+                    <div class="texteDiapo fade" id="txt1">Le souvenir parfait.</div>
+                </div>
+                <div class="imagesDiapo fade">
+                    <img src="images/susslideshow2.png" />
+                    <div class="texteDiapo fade" id="txt2">Le cadeau parfait pour un fan.</div>
+                </div>
+                <div class="imagesDiapo fade">
+                    <img src="images/susslideshow3.png" />
+                    <div class="texteDiapo fade" id="txt3">Un &eacute;chantillon d'ADN pour vos activit&eacute;s suspicieuses.</div>
+                </div>
+            </div>
+
+            <div class="texteAccueil">
+                <span style="font-size: 24px;">
+                    Faitez confiance à nos captureurs.<br>
+                </span>
+                <span style="font-size: 14px;">
+                    Nos captuwureurs <span><img src="images/Atchuwu_icon2.png"/ style="height: 14px; width: 28px;" alt="Atchuwu"></span>sont certifiés et agréés par notre fondateur, Théo Moukhallelati, personnellement. Avec eux, ayez l'esprit tranquille : les produits que vous achetez sont authentiques.
+                </span>
+            </div>
+        
+        </div>
+        <!--Partie droite-->
+        <div class="flexAccueil2">
+            <div class="texteAccueil">
+                <span style="font-size: 24px;">
+                    Connectez-vous pour commencer.<br>
+                </span>
+                <span style="font-size: 14px;">
+                    Seuls les membres peuvent accéder au marché.
+                </span>
+            </div>
+            
+            <img src="images/gay.png" id="gay">
+
+            <div class="texteAccueil">
+                <span style="font-size: 24px;">
+                    Soutenez une entreprise queer locale.<br>
+                </span>
+                <span style="font-size: 14px;">
+                    <span><img src="images/Atchuwu_logo2.png"/ style="height: 16px; width: 52px;" alt="Atchuwu"></span> appartient à son seul employé et cet employé s'avère être un gros gay alors donnez-lui un peu de votre argent.
+                </span>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+<script src="jsFiles/slideShowJS.js"></script>
+<script src="jsFiles/buttons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vendeur_produit" directorySegmentName="seg_0" id="38A8BEF9-3838-FA9A-7FF3-BE2435AF422A">
+<createdBy>sweet</createdBy>
+<createdTime>2022-05-03 01:06:49 UTC</createdTime>
+<ownerDesignName>relationelatchuwu</ownerDesignName>
+<engineerTo>
+<item key="D9D684D1-95A4-1354-506E-77DEA3DC8BD4" value="true"/>
+</engineerTo>
+<sourcePk>1CE66476-378F-7D92-601F-31483DC87F9B</sourcePk>
+<targetPk>E23D04A3-3F82-91AB-75FE-A834D65342A0</targetPk>
+<identifying>false</identifying>
+<nameOnSource>vendu par</nameOnSource>
+<nameOnTarget>vend</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7BC519F-F25E-8826-7381-06C45554EBC8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9ADD62B2-8499-9D83-FB8C-CE91213D3DF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
